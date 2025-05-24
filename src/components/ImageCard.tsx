@@ -27,9 +27,6 @@ const ImageCard: React.FC<ImageCardProps> = ({ photo, onClick }) => {
           draggable={false}
         />
       </div>
-      <div className="p-2 text-sm text-black-700 dark:text-black-300 truncate">
-         {photo.description || photo.alt_description || `❤️ ${photo.likes} likes`}
-      </div>
     </div>
   );
 };
