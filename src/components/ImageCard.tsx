@@ -18,7 +18,7 @@ const ImageCard: React.FC<ImageCardProps> = ({ photo, onClick }) => {
       }}
       aria-label={`Open details for photo by ${photo.user.name}`}
     >
-      <div className="w-full aspect-[4/3] relative">
+      <div className="w-full h-64 relative">
         <img
           src={photo.urls.small}
           alt={photo.alt_description || "Unsplash photo"}
